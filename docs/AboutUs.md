@@ -9,14 +9,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### Qu Zhetao
+### John Doe
 
-<img src="images/quzhetao01.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
-[[github](https://github.com/quzhetao01)]
-[[portfolio](team/quzhetao.md)]
+[[homepage](http://www.comp.nus.edu.sg/~damithch)]
+[[github](https://github.com/johndoe)]
+[[portfolio](team/johndoe.md)]
 
-* Role: Deliverables and deadlines
+* Role: Project Advisor
 
 ### Jane Doe
 
