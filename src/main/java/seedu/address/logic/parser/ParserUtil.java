@@ -2,6 +2,7 @@ package seedu.address.logic.parser;
 
 import static java.util.Objects.requireNonNull;
 
+
 import java.util.Collection;
 import java.util.Set;
 
@@ -17,6 +18,7 @@ import seedu.address.model.student.Name;
 import seedu.address.model.student.Note;
 import seedu.address.model.student.Phone;
 import seedu.address.model.util.LimitedHashSet;
+import seedu.address.model.util.NameFormatter;
 
 /**
  * Contains utility methods used for parsing strings in the various *Parser classes.
@@ -46,11 +48,12 @@ public class ParserUtil {
      */
     public static Name parseName(String name) throws ParseException {
         requireNonNull(name);
-        String trimmedName = name.trim().replaceAll("\\s+", " ");
-        if (!Name.isValidName(trimmedName)) {
+        String capitalisedName = NameFormatter.format(name);
+;
+        if (!Name.isValidName(capitalisedName)) {
             throw new ParseException(Name.MESSAGE_CONSTRAINTS);
         }
-        return new Name(trimmedName);
+        return new Name(capitalisedName);
     }
 
     /**
